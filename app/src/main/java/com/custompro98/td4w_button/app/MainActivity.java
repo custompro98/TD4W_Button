@@ -22,6 +22,7 @@ public class MainActivity extends Activity {
         td4w_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                mp.seekTo(0);
                 mp.start();
             }
         });
@@ -47,5 +48,4 @@ public class MainActivity extends Activity {
         }
         return super.onOptionsItemSelected(item);
     }
-
 }
